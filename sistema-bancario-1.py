@@ -35,7 +35,7 @@ while True: #Loop infinito até que o usuário escolha a opção de sair
 
     elif opcao == "3": #Sacar
         if numero_saques >= LIMITE_SAQUES: #Verifica se o número de saques diários é maior ou igual ao limite de saques diários
-            print("Não é possível realizar essa operação. Limite de saques diários atingido.")
+            print("Não é possível realizar essa operação.\nLimite de saques diários atingido.")
             continue
         valor = float(input("Digite o valor do saque: "))
         if valor <= 0: #Verifica se o valor é negativo ou zero
